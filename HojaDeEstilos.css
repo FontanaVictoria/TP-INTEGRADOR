@@ -1,0 +1,87 @@
+header{
+    box-sizing: border-box;
+    position:sticky;
+    top:0;
+    z-index:3;
+     .navbar{
+        font-weight: 400;
+        background-color: rgb(53,58,64);
+        color:aliceblue;
+        .nav-link{
+            color:aliceblue;
+        }
+    }
+}
+footer{
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding:0;
+    position:sticky;
+    z-index:3;
+    bottom:0;
+    background-color: rgb(29,60,78);
+     .navbar{
+        .nav-link{
+            color:aliceblue;
+            margin-left:1.5em;
+        }
+    }
+}
+.filter{
+    filter: brightness(.5);
+}
+.tarjetas{
+    padding:4em;
+    & img{
+        border-radius:.2em;
+    }
+}
+.botonJava{
+    background-color: gold;
+    border-radius: .5em;
+    padding:.2em;
+    font-weight: 500;
+}
+.botonReact{
+    background-color:deepskyblue;
+    border-radius: .5em;
+    padding:.2em;
+    font-weight: 500;
+    color:aliceblue
+}
+.botonNegocio{
+    background-color:dimgrey;
+    border-radius: .5em;
+    padding:.2em;
+    font-weight: 500;
+    color:aliceblue
+}
+.botonStartup{
+    background-color:crimson;
+    border-radius: .5em;
+    padding:.2em;
+    font-weight: 500;
+    color:aliceblue
+}
+.botonEnviar{
+    background-color: rgb(133, 204, 61);
+    color:white;
+    font-weight: 500;    
+}
+.botonCompTickets{
+    background-color: rgb(41,167,68);
+    color:aliceblue;
+}
+.formulario{
+    margin-bottom:0;
+    padding:3em;
+    text-align: center;
+}
+.ImgTxt{
+    background-color:  rgb(53,58,64);
+}
+
+.fotoCarr{
+    min-height:450px;
+    
+}
