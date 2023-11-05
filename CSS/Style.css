@@ -1,0 +1,100 @@
+*{ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-family: 'Roboto', sans-serif;
+}    
+    
+    .card{
+      margin:.1em;
+      border-radius: 0;
+      border: solid 2px;
+      flex-shrink: 1;
+    
+      .card-header{
+        border:0;
+        background-color:white;
+        text-align: center;
+        font-weight: 600;
+        font-size: large;
+      }
+        & p{
+        text-align: center;
+      }
+    }
+    
+    .flex-container{
+        display:flex;
+        padding: 3em;
+        justify-content: center;
+        flex-flow: row nowrap;
+    }
+        
+    header{
+        box-sizing: border-box;
+        position:sticky;
+        top:0;
+        z-index:3;
+         .navbar{
+            font-weight: 400;
+            background-color: rgb(53,58,64);
+            color:aliceblue;
+            .nav-link{
+                color:aliceblue;
+            }
+        }
+    }
+    footer{
+        box-sizing: border-box;
+        margin-bottom: 0;
+        padding:0;
+        position:sticky;
+        z-index:3;
+        bottom:0;
+        background-color: rgb(29,60,78);
+         .navbar{
+            .nav-link{
+                color:aliceblue;
+                margin-left:1.5em;
+            }
+        }
+    }
+    .mensaje{
+        text-align: center;
+    }
+    
+    .cont_formulario{
+        margin-right: 5em;
+        margin-left: 5em;
+        
+    }
+    .botones{
+        display:flex;
+        margin-left: 4.8em;
+        margin-right: 5.4em;
+        margin-bottom: 2em;
+        .botonResumen, .botonBorrar{
+            background-color: rgb(133, 204, 61);
+            color:white;
+            font-weight: 500;  
+            margin-left: .5em; 
+        }
+    
+    }
+    .container{
+        display:flex;
+        padding:0;
+    }
+    
+    .boton_total{
+        background-color: rgb(204,229,255);
+        border:0;
+        color:darkblue;
+        text-align: left;
+    }
+
+    .alert {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: .3em;
+        margin-right: .3em;
+    }
+
+
